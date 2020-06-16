@@ -44,6 +44,12 @@ commands:
         type: exec
         command: mvn verify
         component: maven
+  - name: Run benchmarker
+    actions:
+      - workdir: '${CHE_PROJECTS_ROOT}/cloud-balancing-lab'
+        type: exec
+        command: mvn clean install exec:java -DskipTests -Pbenchmarker
+        component: maven      
   - name: Dependency analysis
     actions:
       - type: exec
