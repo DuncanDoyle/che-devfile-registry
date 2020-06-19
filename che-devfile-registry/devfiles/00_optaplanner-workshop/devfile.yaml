@@ -3,7 +3,7 @@ metadata:
 projects:
   - name: cloud-balancing-lab
     source:
-      location: 'https://github.com/rhte2019-optaplanner/cloud-balancing-lab-step-1'
+      location: 'https://github.com/RedHat-Middleware-Workshops/optaplanner-2-hour-workshop-cloud-balancing-lab'
       type: git
 components:
   - id: redhat/java8/latest
