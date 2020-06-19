@@ -1,0 +1,6 @@
+---
+displayName: OptaPlanner Workshop
+description: OptaPlanner Workshop stack with OpenJDK 8 and Maven 3.5
+tags: ["RHEL7", "Java", "OpenJDK", "Maven", "OptaPlanner"]
+icon: /images/type-planner.svg
+globalMemoryLimit: 2674Mi
